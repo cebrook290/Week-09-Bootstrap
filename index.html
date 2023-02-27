@@ -4,9 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 10 Bootstrap</title>
+    <title>Week 9 Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
+<body class="container">
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <a class="navbar-brand mb-0 h1">Golden Dog Groomers</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse navbar-light" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonials</a>
+                </li>
+              </ul>
+              <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a href="sign_in.html" class="nav-link">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-primary" type="button">Sign-Up</button>
+                </li>
+              </ul>
+          </div>  
+        </nav>
+    </div><br><br>
+
+    <div class="pricing-header px-3 py-3 pt-md-4 mx-auto text-center">
+        <h1 class="display-4">Pricing</h1><br>
+        <p class="lead">We offer three, fairly priced grooming plans. Once you sign up, you will be able to book all your alloted monthly appointments in advance up to 6 months. Please note, bookings and/or groomers may be subject to change based on availability. If your appointment needs to be adjusted, we will attempt to give you as much notice as possible.
+        </p>
+    </div><br><br>
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Basic</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$35 
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>1 appointment per month</li>
+                                <li>Basic Shampoo and Conditioning</li>
+                                <li>Undercoat Brushing</li>
+                                <li>Nail filing</li>
+                                <li>Teeth Brushing</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Delux</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$60 
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>2 appointments per month</li>
+                                <li>Deasheading Shampoo and Conditioning</li>
+                                <li>Undercoat Brushing</li>
+                                <li>Nail Trimming</li>
+                                <li>Teeth Brushing</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Luxury</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$130 
+                                <small class="text-muted">/ mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Weekly Appointments</li>
+                                <li>Delux Tier Grooming Package</li>
+                                <li>Organic, Pet Safe perfume</li>
+                                <li>Hair Trimming</li>
+                                <li>Ear Cleaning</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Select Plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     
 </body>
 </html>
